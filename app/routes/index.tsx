@@ -1,5 +1,15 @@
 import { Link } from "@remix-run/react";
 import PublicSiteLayout from "~/layouts/PublicSiteLayout";
+import HomeHero from "~/components/sections/home/HeroHome";
+import { Spacer } from "~/components/Spacer";
+import HomeServicesPreview from "~/components/sections/home/HomeServicesPreview";
+import {
+  FaArrowRight,
+  FaChevronLeft,
+  FaChevronRight,
+  FaChevronDown,
+  FaQuoteLeft,
+} from "react-icons/fa";
 
 import { useOptionalUser } from "~/utils";
 
